@@ -10,7 +10,7 @@ import cucumber.api.java.en.When;
 
 public class smokeTestStepDefs {
 	//git test
-	//WebDriver driver=browser.getDriver();
+	WebDriver driver=browser.getDriver();
 	
 	@Given("^User navigates DokuWiki$")
 	public void user_navigates_DokuWiki() {
