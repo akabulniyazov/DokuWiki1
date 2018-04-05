@@ -7,8 +7,8 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		plugin="html:target/cucumber",
     	features="./src/test/resources/features",
     	glue="com.app.stepDefs",
-    	tags= {"@smokeTest"},
-		dryRun=true
+    	tags= {"@smokeTest"}
+//		dryRun=true
 )
 public class cukesRunner extends AbstractTestNGCucumberTests {
 
