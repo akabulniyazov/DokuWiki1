@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[<div "result">User navigates DokuWiki (UNDEFINED)</div>]]>
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 4s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (UNDEFINED)</div>]]>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">User open new file and post &quot;Smoke test is done!&quot; (UNDEFINED)</div>]]>
+      <![CDATA[<div "result">User open new file and post &quot;Smoke test is done!&quot; (PASSED : 2s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">User verify if text is posted (UNDEFINED)</div>]]>
+      <![CDATA[<div "result">User verify if text is posted (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">User deletes the post (UNDEFINED)</div>]]>
+      <![CDATA[<div "result">User deletes the post (PASSED : 1s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">User log out (UNDEFINED)</div>]]>
+      <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="322" started-at="2018-04-03T21:30:14Z" finished-at="2018-04-03T21:30:14Z">
+  <suite name="Default suite" duration-ms="9818" started-at="2018-04-05T18:38:34Z" finished-at="2018-04-05T18:38:44Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@1ce92674]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="322" started-at="2018-04-03T21:30:14Z" finished-at="2018-04-03T21:30:14Z">
+    <test name="Default test" duration-ms="9818" started-at="2018-04-05T18:38:34Z" finished-at="2018-04-05T18:38:44Z">
       <class name="com.app.runner.cukesRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runner.cukesRunner@1ce92674]" name="setUpClass" is-config="true" duration-ms="151" started-at="2018-04-03T21:30:14Z" finished-at="2018-04-03T21:30:14Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runner.cukesRunner@1ce92674]" name="setUpClass" is-config="true" duration-ms="162" started-at="2018-04-05T18:38:34Z" finished-at="2018-04-05T18:38:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@1ce92674]" name="runScenario" duration-ms="20" started-at="2018-04-03T21:30:14Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-03T21:30:14Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@1ce92674]" name="runScenario" duration-ms="9507" started-at="2018-04-05T18:38:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-05T18:38:44Z">
           <params>
             <param index="0">
               <value>
@@ -47,26 +47,26 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<div "result">User navigates DokuWiki (UNDEFINED)</div>]]>
+              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 4s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (UNDEFINED)</div>]]>
+              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">User open new file and post &quot;Smoke test is done!&quot; (UNDEFINED)</div>]]>
+              <![CDATA[<div "result">User open new file and post &quot;Smoke test is done!&quot; (PASSED : 2s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">User verify if text is posted (UNDEFINED)</div>]]>
+              <![CDATA[<div "result">User verify if text is posted (PASSED : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">User deletes the post (UNDEFINED)</div>]]>
+              <![CDATA[<div "result">User deletes the post (PASSED : 1s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">User log out (UNDEFINED)</div>]]>
+              <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runner.cukesRunner@1ce92674]" name="tearDownClass" is-config="true" duration-ms="88" started-at="2018-04-03T21:30:14Z" finished-at="2018-04-03T21:30:14Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runner.cukesRunner@1ce92674]" name="tearDownClass" is-config="true" duration-ms="88" started-at="2018-04-05T18:38:44Z" finished-at="2018-04-05T18:38:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

@@ -10,7 +10,7 @@ import com.app.utilities.browser;
 public class loginPage {
 	
 	WebDriver driver;
-	
+	//altyn zver
 	public loginPage() {
 		this.driver=browser.getDriver();
 		PageFactory.initElements(driver, this);
