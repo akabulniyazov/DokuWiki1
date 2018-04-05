@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\akabu\AppData\Local\Temp\testng-eclipse-636166755\testng-customsuite.xml</span>
+                    <span>testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.app.runner.cukesRunner" hash-for-method="runScenario(&quot;smoke test&quot;, &quot;Logging in application and posting text&quot;)">runScenario("smoke test", "Logging in application and posting text")</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.app.runner.cukesRunner" hash-for-method="runScenario(&quot;delete media file&quot;, &quot;create and delete Media file&quot;)">runScenario("delete media file", "create and delete Media file")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.app.runner.cukesRunner" hash-for-method="runScenario(&quot;Create media file&quot;, &quot;create and delete Media file&quot;)">runScenario("Create media file", "create and delete Media file")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,10 +130,20 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;smoke test&quot;, &quot;Logging in application and posting text&quot;)">
-                  </a> <!-- runScenario("smoke test", "Logging in application and posting text") -->
+                  <a name="runScenario(&quot;delete media file&quot;, &quot;create and delete Media file&quot;)">
+                  </a> <!-- runScenario("delete media file", "create and delete Media file") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("smoke test", "Logging in application and posting text")</span>
+                  <span class="parameters">("delete media file", "create and delete Media file")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Create media file&quot;, &quot;create and delete Media file&quot;)">
+                  </a> <!-- runScenario("Create media file", "create and delete Media file") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Create media file", "create and delete Media file")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -138,7 +153,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\akabu\AppData\Local\Temp\testng-eclipse-636166755\testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/0l/1kpjn9r969d8zhh5zxrlqjfr0000gn/T/testng-eclipse--1595449592/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -195,16 +210,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'com.app.runner.cukesRunner')
-data.setCell(0, 3, 9507);
+data.setCell(0, 3, 24653);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'com.app.runner.cukesRunner')
+data.setCell(1, 3, 21322);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 45 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -216,13 +235,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">runScenario("smoke test", "Logging in application and posting text")</span>
+              <span class="reporter-method-name">runScenario("delete media file", "create and delete Media file")</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 4s)</div></span>
+                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 7s)</div></span>
+                <span class="reporter-method-output"><div "result">user should be able to delete that file (PASSED : 5s)</div></span>
+                <span class="reporter-method-output"><div "result">that file must be deleted from media files (PASSED : 8s)</div></span>
+                <span class="reporter-method-output"><div "result">User log out (PASSED : 1s)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Create media file", "create and delete Media file")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
                 <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div></span>
-                <span class="reporter-method-output"><div "result">User open new file and post &quot;Smoke test is done!&quot; (PASSED : 2s)</div></span>
-                <span class="reporter-method-output"><div "result">User verify if text is posted (PASSED : 0s)</div></span>
-                <span class="reporter-method-output"><div "result">User deletes the post (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">user uploads text file (PASSED : 12s)</div></span>
+                <span class="reporter-method-output"><div "result">user must be able to see that text file in media files (PASSED : 2s)</div></span>
                 <span class="reporter-method-output"><div "result">User log out (PASSED : 0s)</div></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -247,12 +275,16 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("smoke test", "Logging in application and posting text")</span>
-                <span class="method-start">211 ms</span>
+                <span class="method-name">runScenario("Create media file", "create and delete Media file")</span>
+                <span class="method-start">203 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("delete media file", "create and delete Media file")</span>
+                <span class="method-start">21526 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">9723 ms</span>
+                <span class="method-start">46180 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

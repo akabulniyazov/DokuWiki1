@@ -10,14 +10,12 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-
-
 public class browser {
 	static WebDriver driver;
-	
+
 	public static WebDriver getDriver() {
-		if(driver==null ||((RemoteWebDriver)driver).getSessionId()==null) {
-			String Browser= configuration.getPropertyValue("browser");
+		if (driver == null || ((RemoteWebDriver) driver).getSessionId() == null) {
+			String Browser = configuration.getPropertyValue("browser");
 			switch (Browser) {
 			case "chrome":
 				WebDriverManager.chromedriver().setup();
@@ -26,16 +24,23 @@ public class browser {
 				break;
 			case "Internet Explorer":
 				WebDriverManager.iedriver().setup();
-				driver = new InternetExplorerDriver(); 
+				driver = new InternetExplorerDriver();
 				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 				break;
 			case "firefox":
 				WebDriverManager.firefoxdriver().setup();
-				driver = new FirefoxDriver(); 
+				driver = new FirefoxDriver();
 				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-				break;	
+				break;
 			}
-    	}
-			return driver;
+		}
+		return driver;
+	}
+
+	public static void closeDriver() {
+		if (driver != null) {
+			driver.quit();
+			driver = null;
+		}
 	}
 }
