@@ -15,6 +15,8 @@ public class homePage {
 		this.driver=browser.getDriver();
 		PageFactory.initElements(driver, this);
 	}
+	@FindBy(linkText="Media Manager")
+	public WebElement mediaMenagerLink;
 	
 	@FindBy(xpath="//a[@title='Create this page [E]']")
 	public WebElement CreateThisPage;
