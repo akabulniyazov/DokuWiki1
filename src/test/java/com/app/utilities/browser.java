@@ -42,12 +42,6 @@ public class browser {
 			driver.quit();
 			driver = null;
 		}
-	}
 	
-	public static void closeDriver() {
-		if(driver!=null) {
-			driver.quit();
-			driver=null;
-		}
 	}
 }
