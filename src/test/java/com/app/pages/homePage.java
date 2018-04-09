@@ -33,7 +33,7 @@ public class homePage {
 	
 	@FindBy(xpath="//a[@title='Log Out']")
 	public WebElement logOut;
-	
+
 	@FindBy(xpath="//a[.='start']")
 	public WebElement start;
 	
@@ -57,6 +57,12 @@ public class homePage {
 	
 	@FindBy(xpath="//a[@class='action show']")
 	public WebElement showPage;
+
+	@FindBy(xpath="//a[@title='Recent Changes [R]']")
+	public WebElement recentChanges;
+
 	
 
+	@FindBy(xpath="//div[@class='page group']")
+	public WebElement bodyText;
 }
