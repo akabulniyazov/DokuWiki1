@@ -1,13 +1,17 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
+
       <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+
     </line>
     <line>
       <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
     </line>
     <line>
+
       <![CDATA[<div "result">user uploads text file (PASSED : 12s)</div>]]>
     </line>
     <line>
@@ -33,11 +37,13 @@
     </line>
   </reporter-output>
   <suite name="Default suite" duration-ms="46193" started-at="2018-04-05T22:58:51Z" finished-at="2018-04-05T22:59:37Z">
+
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@3f49dace]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
+
     <test name="Default test" duration-ms="46193" started-at="2018-04-05T22:58:51Z" finished-at="2018-04-05T22:59:37Z">
       <class name="com.app.runner.cukesRunner">
         <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runner.cukesRunner@3f49dace]" name="setUpClass" is-config="true" duration-ms="153" started-at="2018-04-05T22:58:51Z" finished-at="2018-04-05T22:58:51Z">
@@ -49,22 +55,28 @@
             <param index="0">
               <value>
                 <![CDATA["Create media file"]]>
+
               </value>
             </param>
             <param index="1">
               <value>
+
                 <![CDATA["create and delete Media file"]]>
+
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
+
               <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+
             </line>
             <line>
               <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
             </line>
             <line>
+
               <![CDATA[<div "result">user uploads text file (PASSED : 12s)</div>]]>
             </line>
             <line>
@@ -80,16 +92,20 @@
             <param index="0">
               <value>
                 <![CDATA["delete media file"]]>
+
               </value>
             </param>
             <param index="1">
               <value>
+
                 <![CDATA["create and delete Media file"]]>
+
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
+
               <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
             </line>
             <line>
@@ -107,6 +123,7 @@
           </reporter-output>
         </test-method> <!-- runScenario -->
         <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runner.cukesRunner@3f49dace]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2018-04-05T22:59:37Z" finished-at="2018-04-05T22:59:37Z">
+
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
@@ -114,3 +131,4 @@
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
+

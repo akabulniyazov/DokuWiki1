@@ -43,4 +43,11 @@ public class browser {
 			driver = null;
 		}
 	}
+	
+	public static void closeDriver() {
+		if(driver!=null) {
+			driver.quit();
+			driver=null;
+		}
+	}
 }
