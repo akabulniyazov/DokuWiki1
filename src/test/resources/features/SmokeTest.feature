@@ -1,4 +1,4 @@
-@smokeTest
+@smoke
 Feature: Logging in application and posting text 
 
 Scenario: smoke test
