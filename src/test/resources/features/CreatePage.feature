@@ -13,4 +13,5 @@ Scenario: Make change on file
 And User navigate to start link
 Then User changing the current post to "[[Cybertel School]]"
 And User verify the last change in Old revisions 
+And User deletes all posts
 And User log out

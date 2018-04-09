@@ -1,72 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 4s)</div>]]>
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
     </line>
     <line>
       <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">User open new file and post &quot;Smoke test is done!&quot; (PASSED : 2s)</div>]]>
+      <![CDATA[<div "result">user goes to Recent changes menu (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">User verify if text is posted (PASSED : 0s)</div>]]>
+      <![CDATA[<div "result">user choose Pages option from dropdown (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">User deletes the post (PASSED : 1s)</div>]]>
+      <![CDATA[<div "result">user verifies sorted list has glasses button before each file (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user goes to Recent changes menu (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user choose Media option from dropdown (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user verifies all files have extention (PASSED : 0s)</div>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9818" started-at="2018-04-05T18:38:34Z" finished-at="2018-04-05T18:38:44Z">
+  <suite name="Default suite" duration-ms="19671" started-at="2018-04-09T22:13:15Z" finished-at="2018-04-09T22:13:35Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@1ce92674]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="9818" started-at="2018-04-05T18:38:34Z" finished-at="2018-04-05T18:38:44Z">
+    <test name="Default test" duration-ms="19671" started-at="2018-04-09T22:13:15Z" finished-at="2018-04-09T22:13:35Z">
       <class name="com.app.runner.cukesRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runner.cukesRunner@1ce92674]" name="setUpClass" is-config="true" duration-ms="162" started-at="2018-04-05T18:38:34Z" finished-at="2018-04-05T18:38:34Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runner.cukesRunner@1ce92674]" name="setUpClass" is-config="true" duration-ms="167" started-at="2018-04-09T22:13:15Z" finished-at="2018-04-09T22:13:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@1ce92674]" name="runScenario" duration-ms="9507" started-at="2018-04-05T18:38:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-05T18:38:44Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@1ce92674]" name="runScenario" duration-ms="10626" started-at="2018-04-09T22:13:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-09T22:13:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA["smoke test"]]>
+                <![CDATA["Recent changes on Pages"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Logging in application and posting text"]]>
+                <![CDATA["Tracking recent changes"]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 4s)</div>]]>
+              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
             </line>
             <line>
               <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">User open new file and post &quot;Smoke test is done!&quot; (PASSED : 2s)</div>]]>
+              <![CDATA[<div "result">user goes to Recent changes menu (PASSED : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">User verify if text is posted (PASSED : 0s)</div>]]>
+              <![CDATA[<div "result">user choose Pages option from dropdown (PASSED : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">User deletes the post (PASSED : 1s)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
+              <![CDATA[<div "result">user verifies sorted list has glasses button before each file (PASSED : 0s)</div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runner.cukesRunner@1ce92674]" name="tearDownClass" is-config="true" duration-ms="88" started-at="2018-04-05T18:38:44Z" finished-at="2018-04-05T18:38:44Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@1ce92674]" name="runScenario" duration-ms="8625" started-at="2018-04-09T22:13:26Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-09T22:13:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Recent changes on Media"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tracking recent changes"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user goes to Recent changes menu (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user choose Media option from dropdown (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user verifies all files have extention (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runner.cukesRunner@1ce92674]" name="tearDownClass" is-config="true" duration-ms="185" started-at="2018-04-09T22:13:35Z" finished-at="2018-04-09T22:13:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

@@ -1,7 +1,10 @@
 package com.app.stepDefs;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 
 import com.app.pages.homePage;
 import com.app.utilities.browser;
@@ -14,6 +17,9 @@ public class Hooks {
 	
 	@Before
 	public void setup(Scenario scenario) {
+		WebDriver driver= browser.getDriver();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	 	driver.manage().window().maximize();
 		System.out.println("Before scnario");
 	}
 	
@@ -25,8 +31,7 @@ public class Hooks {
 		final byte[] screenshot =((TakesScreenshot)browser.getDriver()).getScreenshotAs(OutputType.BYTES);
 		scenario.embed(screenshot, "image/png");
 		}
-//		browser.getDriver().quit();
-		homePage homepage=new homePage();
+		browser.getDriver().quit();
 		
 		
 	}
