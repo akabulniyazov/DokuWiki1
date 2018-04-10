@@ -1,4 +1,4 @@
-@recentChanges @reg
+@recentChanges @reg @smoke
 Feature: Tracking recent changes
 Background: 
 	Given User navigates DokuWiki

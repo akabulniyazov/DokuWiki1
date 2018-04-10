@@ -1,4 +1,4 @@
-@media @reg
+@media @reg @smoke
 Feature: create and delete Media file
 
   Background: 
