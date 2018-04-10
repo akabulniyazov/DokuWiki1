@@ -1,4 +1,4 @@
-@oldRevision
+@oldRevision @reg
 Feature: Old revision feature
 
 
