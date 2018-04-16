@@ -61,8 +61,7 @@ public class homePage {
 	@FindBy(xpath="//li[@class='level1']//a")
 	public List<WebElement> listOfLinks;
 	
-	@FindBy(xpath="//a[@title='Old revisions [O]']")
-	public WebElement oldRevision;
+	
 	
 	@FindBy(xpath="(//span[@class='user'])[1]/bdi")
 	public WebElement verifyUserInOldRevision;
