@@ -1,4 +1,4 @@
-@search @fff
+@search @fff @reg
 Feature: Search functionality
 Background: 
 	Given User navigates DokuWiki

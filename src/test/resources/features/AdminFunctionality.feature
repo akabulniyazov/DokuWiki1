@@ -1,3 +1,4 @@
+@reg
 Feature: Creating new user
 	
 Scenario Outline: new user

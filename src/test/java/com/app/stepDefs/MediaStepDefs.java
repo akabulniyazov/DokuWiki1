@@ -30,8 +30,8 @@ public class MediaStepDefs {
 
 	homePage hPage = new homePage();
 	MediaManagerPage mediaPAge = new MediaManagerPage();
-	String fileName = "Iskender copy.txt";
-	String filePath = "/Users/iskanderuraiymov/Desktop/untitled folder/Iskender copy.txt";
+	String fileName = "picture.png";
+	String filePath = "/Users/iskanderuraiymov/Desktop/untitled folder/picture.png";
 
 	@Then("^user uploads text file$")
 	public void user_uploads_text_file() throws InterruptedException {
@@ -52,7 +52,7 @@ public class MediaStepDefs {
 		mediaPAge.uploadTab.click();
 		mediaPAge.uploader.sendKeys(filePath);
 		mediaPAge.uploadFile.click();
-		Thread.sleep(2000);
+		Thread.sleep(6000);
 
 	}
 
@@ -60,8 +60,9 @@ public class MediaStepDefs {
 	public void user_must_be_able_to_see_that_text_file_in_media_files() throws InterruptedException {
 
 		mediaPAge.mediaFilesTab.click();
-		assertEquals(driver.findElement(By.linkText("test1.rtf")).getText(), fileName);
 		Thread.sleep(2000);
+		assertEquals(driver.findElement(By.linkText(fileName)).getText(), fileName);
+		
 	}
 
 	@Then("^user should be able to delete that file$")

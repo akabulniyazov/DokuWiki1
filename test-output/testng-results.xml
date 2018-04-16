@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+
+<testng-results skipped="0" failed="5" ignored="0" total="20" passed="15">
+
   <reporter-output>
     <line>
 
@@ -13,9 +15,131 @@
     </line>
     <line>
 
-      <![CDATA[<div "result">user update password to &quot;abc12345&quot; (PASSED : 19s)</div>]]>
+      <![CDATA[<div "result">User creates new user with credentials &quot;altyn&quot; &quot;abc123&quot; &quot;abc123&quot; &quot;Altyn&quot; &quot;altyn@gmail.com&quot; &quot;Hackers&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User validates that &quot;altyn&quot; is displayed on table (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User creates new user with credentials &quot;aslan&quot; &quot;abc123&quot; &quot;abc123&quot; &quot;Aslan&quot; &quot;aslan@gmail.com&quot; &quot;Hackers&quot; (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User validates that &quot;aslan&quot; is displayed on table (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User creates new user with credentials &quot;mira&quot; &quot;abc123&quot; &quot;abc123&quot; &quot;Mira&quot; &quot;mira@gmail.com&quot; &quot;Hackers&quot; (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User validates that &quot;mira&quot; is displayed on table (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User creates new user with credentials &quot;arslan&quot; &quot;abc123&quot; &quot;abc123&quot; &quot;Arslan&quot; &quot;arslan@gmail.com&quot; &quot;Hackers&quot; (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User validates that &quot;arslan&quot; is displayed on table (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log in as User username &quot;mira&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User writes &quot;[[batch 7]]&quot; inside &quot;[[cybertek]]&quot; link (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User verify in Old revisions that change made by &quot;mira&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User creates new file (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User posts &quot;[[Hackers]]&quot; (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User clicks on start link (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User validates the post (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User edits &quot;[[Hackers]]&quot; file to &quot;[[Hackers Cybertek]]&quot; file and saves it (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User validates the change by clicking start link (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User navigates to tool bar and clicks Old Revision tool (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User verifies &quot;Old Revisions&quot; text isDisplayed (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User cliks on sunglass image which is on the second line with a text created (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User verifies created &quot;[[Hackers]]&quot; changed to &quot;[[Hackers Cybertek]]&quot; with valid dates (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User deletes &quot;[[Hackers Cybertek]]&quot; (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User logs out (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user uploads text file (PASSED : 14s)</div>]]>
 
-      <![CDATA[<div "result">user uploads text file (PASSED : 10s)</div>]]>
     </line>
     <line>
       <![CDATA[<div "result">user must be able to see that text file in media files (PASSED : 2s)</div>]]>
@@ -48,47 +172,219 @@
     <line>
       <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
     </line>
+    <line>
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User creates &quot;[[Hackers]]&quot; file (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User edits &quot;[[Hackers]]&quot; file to &quot;[[Hackers Cybertek]]&quot; file and saves it (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User validates the change by clicking start link (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User logs out (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User navigates to tool bar and clicks Old Revision tool (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User verifies &quot;Old Revisions&quot; text isDisplayed (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User cliks on sunglass image which is on the second line with a text created (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User verifies created &quot;[[Hackers]]&quot; changed to &quot;[[Hackers Cybertek]]&quot; with valid dates (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User deletes the file (PASSED : 10s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User logs out (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user goes to Recent changes menu (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user choose Pages option from dropdown (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user verifies sorted list has glasses button before each file (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user goes to Recent changes menu (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user choose Media option from dropdown (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user verifies all files have extention (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user search for &quot;Cybertek&quot; (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user verifies all &quot;Cybertek&quot; related pages are displayed (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log out (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user search for &quot;NoPage&quot; (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user verifies &quot;Nothing was found&quot; message (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log out (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verify that all pages are present in SiteMap section (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User open syntax page (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verify each content is described (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User writes &quot;[[batch 7]]&quot; bold text format inside Cybertek school link (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User verify if link is bold (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">delete bold link (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User writes &quot;[[batch 8]]&quot; italic text format inside Cybertek school link (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User verify if link is italic (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">delete italic link (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user update password to &quot;abc12345&quot; (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log out (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc12345&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User log out (SKIPPED)</div>]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35103" started-at="2018-04-16T21:47:50Z" finished-at="2018-04-16T21:48:25Z">
+
+  <suite name="Doku Wiki Smoke Automation" duration-ms="177276" started-at="2018-04-16T23:41:38Z" finished-at="2018-04-16T23:44:35Z">
 
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@dc24521]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
 
-    <test name="Default test" duration-ms="36156" started-at="2018-04-16T23:00:39Z" finished-at="2018-04-16T23:01:15Z">
-      <class name="com.app.runner.cukesRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runner.cukesRunner@dc24521]" name="setUpClass" is-config="true" duration-ms="283" started-at="2018-04-16T23:00:39Z" finished-at="2018-04-16T23:00:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@dc24521]" name="runScenario" duration-ms="35733" started-at="2018-04-16T23:00:39Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:01:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Updating password"]]>
+    <test name="Automated tests" duration-ms="177276" started-at="2018-04-16T23:41:38Z" finished-at="2018-04-16T23:44:35Z">
+      <class name="com.app.runner.RegressionTestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="setUpClass" is-config="true" duration-ms="240" started-at="2018-04-16T23:41:38Z" finished-at="2018-04-16T23:41:38Z">
 
-    <test name="Default test" duration-ms="35103" started-at="2018-04-16T21:47:50Z" finished-at="2018-04-16T21:48:25Z">
-      <class name="com.app.runner.cukesRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runner.cukesRunner@dc24521]" name="setUpClass" is-config="true" duration-ms="170" started-at="2018-04-16T21:47:50Z" finished-at="2018-04-16T21:47:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@dc24521]" name="runScenario" duration-ms="17052" started-at="2018-04-16T21:47:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T21:48:07Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="runScenario" duration-ms="7845" started-at="2018-04-16T23:41:38Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:41:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Create media file"]]>
+
+                <![CDATA["new user"]]>
 
               </value>
             </param>
             <param index="1">
               <value>
 
-                <![CDATA["Update profile"]]>
-
-                <![CDATA["create and delete Media file"]]>
+                <![CDATA["Creating new user"]]>
 
               </value>
             </param>
@@ -156,12 +452,10 @@ at ✽.User log out(./src/test/resources/features/UpdateProfile.feature:12)
             </line>
             <line>
 
-              <![CDATA[<div "result">user update password to &quot;abc12345&quot; (PASSED : 19s)</div>]]>
-
-              <![CDATA[<div "result">user uploads text file (PASSED : 10s)</div>]]>
+              <![CDATA[<div "result">User creates new user with credentials &quot;altyn&quot; &quot;abc123&quot; &quot;abc123&quot; &quot;Altyn&quot; &quot;altyn@gmail.com&quot; &quot;Hackers&quot; (PASSED : 1s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">user must be able to see that text file in media files (PASSED : 2s)</div>]]>
+              <![CDATA[<div "result">User validates that &quot;altyn&quot; is displayed on table (PASSED : 0s)</div>]]>
 
             </line>
             <line>
@@ -171,7 +465,270 @@ at ✽.User log out(./src/test/resources/features/UpdateProfile.feature:12)
 
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@dc24521]" name="runScenario" duration-ms="17809" started-at="2018-04-16T21:48:07Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T21:48:25Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="runScenario" duration-ms="7074" started-at="2018-04-16T23:41:46Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:41:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["new user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Creating new user"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User creates new user with credentials &quot;aslan&quot; &quot;abc123&quot; &quot;abc123&quot; &quot;Aslan&quot; &quot;aslan@gmail.com&quot; &quot;Hackers&quot; (PASSED : 2s)</div>]]>
+            </line>
+
+            <line>
+
+              <![CDATA[<div "result">User validates that &quot;aslan&quot; is displayed on table (PASSED : 0s)</div>]]>
+
+            </line>
+            <line>
+
+              <![CDATA[<div "result">User log out (FAILED : 5s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runner.cukesRunner@dc24521]" name="tearDownClass" is-config="true" duration-ms="19" started-at="2018-04-16T23:01:15Z" finished-at="2018-04-16T23:01:15Z">
+
+              <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="runScenario" duration-ms="7275" started-at="2018-04-16T23:41:53Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:42:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["new user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Creating new user"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User creates new user with credentials &quot;mira&quot; &quot;abc123&quot; &quot;abc123&quot; &quot;Mira&quot; &quot;mira@gmail.com&quot; &quot;Hackers&quot; (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User validates that &quot;mira&quot; is displayed on table (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="runScenario" duration-ms="6637" started-at="2018-04-16T23:42:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:42:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["new user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Creating new user"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User creates new user with credentials &quot;arslan&quot; &quot;abc123&quot; &quot;abc123&quot; &quot;Arslan&quot; &quot;arslan@gmail.com&quot; &quot;Hackers&quot; (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User validates that &quot;arslan&quot; is displayed on table (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="runScenario" duration-ms="7820" started-at="2018-04-16T23:42:07Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:42:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["making changes as new user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Creating new user"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log in as User username &quot;mira&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User writes &quot;[[batch 7]]&quot; inside &quot;[[cybertek]]&quot; link (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User verify in Old revisions that change made by &quot;mira&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="runScenario" duration-ms="4151" started-at="2018-04-16T23:42:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:42:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create Hackers file"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Creating new file"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User creates new file (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User posts &quot;[[Hackers]]&quot; (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User clicks on start link (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User validates the post (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User edits &quot;[[Hackers]]&quot; file to &quot;[[Hackers Cybertek]]&quot; file and saves it (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User validates the change by clicking start link (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="runScenario" duration-ms="9589" started-at="2018-04-16T23:42:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:42:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["See changed actions"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Creating new file"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [[[Hackers Cybertek]]]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [[[Hackers Cybertek]]]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.app.stepDefs.OldRevisionStepDefs2.user_verifies_created_changed_to_with_valid_dates(OldRevisionStepDefs2.java:96)
+at ✽.User verifies created "[[Hackers]]" changed to "[[Hackers Cybertek]]" with valid dates(src/test/resources/features/CreatePage.feature:19)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User navigates to tool bar and clicks Old Revision tool (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User verifies &quot;Old Revisions&quot; text isDisplayed (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User cliks on sunglass image which is on the second line with a text created (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User verifies created &quot;[[Hackers]]&quot; changed to &quot;[[Hackers Cybertek]]&quot; with valid dates (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User deletes &quot;[[Hackers Cybertek]]&quot; (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User logs out (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="runScenario" duration-ms="20810" started-at="2018-04-16T23:42:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:42:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create media file"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["create and delete Media file"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user uploads text file (PASSED : 14s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user must be able to see that text file in media files (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="runScenario" duration-ms="24808" started-at="2018-04-16T23:42:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:43:14Z">
           <params>
             <param index="0">
               <value>
@@ -194,28 +751,353 @@ at ✽.User log out(./src/test/resources/features/UpdateProfile.feature:12)
             <line>
               <![CDATA[<div "result">user should be able to delete that file (PASSED : 5s)</div>]]>
             </line>
-
             <line>
-              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc12345&quot; (PASSED : 1s)</div>]]>
+              <![CDATA[<div "result">that file must be deleted from media files (PASSED : 8s)</div>]]>
             </line>
             <line>
-
-              <![CDATA[<div "result">User log out (FAILED : 5s)</div>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runner.cukesRunner@dc24521]" name="tearDownClass" is-config="true" duration-ms="19" started-at="2018-04-16T23:01:15Z" finished-at="2018-04-16T23:01:15Z">
-
               <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runner.cukesRunner@dc24521]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2018-04-16T21:48:25Z" finished-at="2018-04-16T21:48:25Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="runScenario" duration-ms="11227" started-at="2018-04-16T23:43:14Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating Hackers file"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Old revision feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User creates &quot;[[Hackers]]&quot; file (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User edits &quot;[[Hackers]]&quot; file to &quot;[[Hackers Cybertek]]&quot; file and saves it (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User validates the change by clicking start link (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User logs out (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="runScenario" duration-ms="19687" started-at="2018-04-16T23:43:26Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:43:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Old revision actions"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Old revision feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User navigates to tool bar and clicks Old Revision tool (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User verifies &quot;Old Revisions&quot; text isDisplayed (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User cliks on sunglass image which is on the second line with a text created (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User verifies created &quot;[[Hackers]]&quot; changed to &quot;[[Hackers Cybertek]]&quot; with valid dates (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User deletes the file (PASSED : 10s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User logs out (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="runScenario" duration-ms="4721" started-at="2018-04-16T23:43:45Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:43:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Recent changes on Pages"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tracking recent changes"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user goes to Recent changes menu (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user choose Pages option from dropdown (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user verifies sorted list has glasses button before each file (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="runScenario" duration-ms="5064" started-at="2018-04-16T23:43:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:43:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Recent changes on Media"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tracking recent changes"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user goes to Recent changes menu (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user choose Media option from dropdown (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user verifies all files have extention (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="runScenario" duration-ms="4061" started-at="2018-04-16T23:43:55Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for pages with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user search for &quot;Cybertek&quot; (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user verifies all &quot;Cybertek&quot; related pages are displayed (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log out (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="runScenario" duration-ms="4416" started-at="2018-04-16T23:43:59Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:44:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for pages with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user search for &quot;NoPage&quot; (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user verifies &quot;Nothing was found&quot; message (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log out (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="runScenario" duration-ms="7987" started-at="2018-04-16T23:44:04Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:44:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["SiteMap available pages"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["SiteMap functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Verify that all pages are present in SiteMap section (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="runScenario" duration-ms="4650" started-at="2018-04-16T23:44:12Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:44:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Cybertek links"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["SiteMap functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User open syntax page (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Verify each content is described (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="runScenario" duration-ms="7205" started-at="2018-04-16T23:44:16Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:44:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Text type"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User writes &quot;[[batch 7]]&quot; bold text format inside Cybertek school link (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User verify if link is bold (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">delete bold link (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+
+            <line>
+         
+            <line>
+              <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="runScenario" duration-ms="4114" started-at="2018-04-16T23:44:31Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:44:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Updating password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update profile"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user update password to &quot;abc12345&quot; (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log out (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc12345&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User log out (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runner.RegressionTestRunner@dc24521]" name="tearDownClass" is-config="true" duration-ms="70" started-at="2018-04-16T23:44:35Z" finished-at="2018-04-16T23:44:35Z">
 
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.app.runner.cukesRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.app.runner.RegressionTestRunner -->
+    </test> <!-- Automated tests -->
+  </suite> <!-- Doku Wiki Smoke Automation -->
 </testng-results>
