@@ -70,6 +70,7 @@ public class homePage {
 	public WebElement recentChanges;
 
 	
+	
 
 	@FindBy(xpath="//div[@class='page group']")
 	public WebElement bodyText;
