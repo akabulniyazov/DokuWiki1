@@ -1,4 +1,4 @@
-@profile
+@profile @reg
 Feature: Update profile
 
 Background: 

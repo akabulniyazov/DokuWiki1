@@ -1,4 +1,4 @@
-@textType
+@textType @reg
 Feature: Text type 
 Background: 
 	Given User navigates DokuWiki

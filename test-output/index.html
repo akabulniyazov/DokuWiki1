@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation">
+              <span class="suite-name border-failed">Doku Wiki Smoke Automation</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>testng-customsuite.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Doku_Wiki_Smoke_Automation">
+                    <span>doku_regression_test_runner.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="testlist-Doku_Wiki_Smoke_Automation">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="group-Doku_Wiki_Smoke_Automation">
                     <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="times-Doku_Wiki_Smoke_Automation">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-Doku_Wiki_Smoke_Automation">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Doku_Wiki_Smoke_Automation">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-Doku_Wiki_Smoke_Automation">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,26 +91,125 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">20 methods, 5 failed,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Doku_Wiki_Smoke_Automation" class="hide-methods failed suite-Doku_Wiki_Smoke_Automation"> (hide)</a> <!-- hide-methods failed suite-Doku_Wiki_Smoke_Automation -->
+                      <a href="#" panel-name="suite-Doku_Wiki_Smoke_Automation" class="show-methods failed suite-Doku_Wiki_Smoke_Automation"> (show)</a> <!-- show-methods failed suite-Doku_Wiki_Smoke_Automation -->
+                    </span>
+                    <div class="method-list-content failed suite-Doku_Wiki_Smoke_Automation">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;Updating password&quot;, &quot;Update profile&quot;)">runScenario("Updating password", "Update profile")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;Search for pages with invalid credentials&quot;, &quot;Search functionality&quot;)">runScenario("Search for pages with invalid credentials", "Search functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;Search for pages with valid credentials&quot;, &quot;Search functionality&quot;)">runScenario("Search for pages with valid credentials", "Search functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;See changed actions&quot;, &quot;Creating new file&quot;)">runScenario("See changed actions", "Creating new file")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;Create Hackers file&quot;, &quot;Creating new file&quot;)">runScenario("Create Hackers file", "Creating new file")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Doku_Wiki_Smoke_Automation -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Doku_Wiki_Smoke_Automation" class="hide-methods passed suite-Doku_Wiki_Smoke_Automation"> (hide)</a> <!-- hide-methods passed suite-Doku_Wiki_Smoke_Automation -->
+                      <a href="#" panel-name="suite-Doku_Wiki_Smoke_Automation" class="show-methods passed suite-Doku_Wiki_Smoke_Automation"> (show)</a> <!-- show-methods passed suite-Doku_Wiki_Smoke_Automation -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-Doku_Wiki_Smoke_Automation">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.app.runner.cukesRunner" hash-for-method="runScenario(&quot;Create media file&quot;, &quot;create and delete Media file&quot;)">runScenario("Create media file", "create and delete Media file")</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;Create media file&quot;, &quot;create and delete Media file&quot;)">runScenario("Create media file", "create and delete Media file")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.app.runner.cukesRunner" hash-for-method="runScenario(&quot;delete media file&quot;, &quot;create and delete Media file&quot;)">runScenario("delete media file", "create and delete Media file")</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;&quot;, &quot;Text type&quot;)">runScenario("", "Text type")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;new user&quot;, &quot;Creating new user&quot;)">runScenario("new user", "Creating new user")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;Creating Hackers file&quot;, &quot;Old revision feature&quot;)">runScenario("Creating Hackers file", "Old revision feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;Old revision actions&quot;, &quot;Old revision feature&quot;)">runScenario("Old revision actions", "Old revision feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;making changes as new user&quot;, &quot;Creating new user&quot;)">runScenario("making changes as new user", "Creating new user")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;Recent changes on Media&quot;, &quot;Tracking recent changes&quot;)">runScenario("Recent changes on Media", "Tracking recent changes")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;&quot;, &quot;Text type&quot;)">runScenario("", "Text type")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;Recent changes on Pages&quot;, &quot;Tracking recent changes&quot;)">runScenario("Recent changes on Pages", "Tracking recent changes")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;new user&quot;, &quot;Creating new user&quot;)">runScenario("new user", "Creating new user")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;Cybertek links&quot;, &quot;SiteMap functionality&quot;)">runScenario("Cybertek links", "SiteMap functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;new user&quot;, &quot;Creating new user&quot;)">runScenario("new user", "Creating new user")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;new user&quot;, &quot;Creating new user&quot;)">runScenario("new user", "Creating new user")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;delete media file&quot;, &quot;create and delete Media file&quot;)">runScenario("delete media file", "create and delete Media file")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;SiteMap available pages&quot;, &quot;SiteMap functionality&quot;)">runScenario("SiteMap available pages", "SiteMap functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Doku_Wiki_Smoke_Automation -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -121,11 +220,80 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-Doku_Wiki_Smoke_Automation" class="panel Doku_Wiki_Smoke_Automation">
+          <div class="suite-Doku_Wiki_Smoke_Automation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.app.runner.RegressionTestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Updating password&quot;, &quot;Update profile&quot;)">
+                  </a> <!-- runScenario("Updating password", "Update profile") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Updating password", "Update profile")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Search for pages with invalid credentials&quot;, &quot;Search functionality&quot;)">
+                  </a> <!-- runScenario("Search for pages with invalid credentials", "Search functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Search for pages with invalid credentials", "Search functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Search for pages with valid credentials&quot;, &quot;Search functionality&quot;)">
+                  </a> <!-- runScenario("Search for pages with valid credentials", "Search functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Search for pages with valid credentials", "Search functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;See changed actions&quot;, &quot;Creating new file&quot;)">
+                  </a> <!-- runScenario("See changed actions", "Creating new file") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("See changed actions", "Creating new file")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [] but found [[[Hackers Cybertek]]]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.app.stepDefs.OldRevisionStepDefs2.user_verifies_created_changed_to_with_valid_dates(OldRevisionStepDefs2.java:96)
+	at ✽.User verifies created &quot;[[Hackers]]&quot; changed to &quot;[[Hackers Cybertek]]&quot; with valid dates(src/test/resources/features/CreatePage.feature:19)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Create Hackers file&quot;, &quot;Creating new file&quot;)">
+                  </a> <!-- runScenario("Create Hackers file", "Creating new file") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Create Hackers file", "Creating new file")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Doku_Wiki_Smoke_Automation-class-failed -->
+          <div class="suite-Doku_Wiki_Smoke_Automation-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.app.runner.cukesRunner</span>
+              <span class="class-name">com.app.runner.RegressionTestRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -140,6 +308,126 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="runScenario(&quot;&quot;, &quot;Text type&quot;)">
+                  </a> <!-- runScenario("", "Text type") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("", "Text type")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;new user&quot;, &quot;Creating new user&quot;)">
+                  </a> <!-- runScenario("new user", "Creating new user") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("new user", "Creating new user")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Creating Hackers file&quot;, &quot;Old revision feature&quot;)">
+                  </a> <!-- runScenario("Creating Hackers file", "Old revision feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Creating Hackers file", "Old revision feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Old revision actions&quot;, &quot;Old revision feature&quot;)">
+                  </a> <!-- runScenario("Old revision actions", "Old revision feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Old revision actions", "Old revision feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;making changes as new user&quot;, &quot;Creating new user&quot;)">
+                  </a> <!-- runScenario("making changes as new user", "Creating new user") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("making changes as new user", "Creating new user")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Recent changes on Media&quot;, &quot;Tracking recent changes&quot;)">
+                  </a> <!-- runScenario("Recent changes on Media", "Tracking recent changes") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Recent changes on Media", "Tracking recent changes")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;&quot;, &quot;Text type&quot;)">
+                  </a> <!-- runScenario("", "Text type") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("", "Text type")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Recent changes on Pages&quot;, &quot;Tracking recent changes&quot;)">
+                  </a> <!-- runScenario("Recent changes on Pages", "Tracking recent changes") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Recent changes on Pages", "Tracking recent changes")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;new user&quot;, &quot;Creating new user&quot;)">
+                  </a> <!-- runScenario("new user", "Creating new user") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("new user", "Creating new user")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Cybertek links&quot;, &quot;SiteMap functionality&quot;)">
+                  </a> <!-- runScenario("Cybertek links", "SiteMap functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Cybertek links", "SiteMap functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;new user&quot;, &quot;Creating new user&quot;)">
+                  </a> <!-- runScenario("new user", "Creating new user") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("new user", "Creating new user")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;new user&quot;, &quot;Creating new user&quot;)">
+                  </a> <!-- runScenario("new user", "Creating new user") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("new user", "Creating new user")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="runScenario(&quot;delete media file&quot;, &quot;create and delete Media file&quot;)">
                   </a> <!-- runScenario("delete media file", "create and delete Media file") -->
                   <span class="method-name">runScenario</span>
@@ -148,42 +436,52 @@
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;SiteMap available pages&quot;, &quot;SiteMap functionality&quot;)">
+                  </a> <!-- runScenario("SiteMap available pages", "SiteMap functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("SiteMap available pages", "SiteMap functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Doku_Wiki_Smoke_Automation-class-passed -->
+        </div> <!-- panel Doku_Wiki_Smoke_Automation -->
+        <div panel-name="test-xml-Doku_Wiki_Smoke_Automation" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/0l/1kpjn9r969d8zhh5zxrlqjfr0000gn/T/testng-eclipse--278703791/testng-customsuite.xml</span>
+            <span class="header-content">/Users/iskanderuraiymov/git/DokuWiki1/doku_regression_test_runner.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;2&quot; name=&quot;Doku Wiki Smoke Automation&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Automated tests&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.app.runner.cukesRunner&quot;/&gt;
+      &lt;class name=&quot;com.app.runner.RegressionTestRunner&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Automated tests --&gt;
+&lt;/suite&gt; &lt;!-- Doku Wiki Smoke Automation --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Doku_Wiki_Smoke_Automation" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Doku Wiki Smoke Automation</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Automated tests (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Doku_Wiki_Smoke_Automation" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Doku Wiki Smoke Automation</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
@@ -196,42 +494,114 @@
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Doku_Wiki_Smoke_Automation" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Doku Wiki Smoke Automation</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Doku_Wiki_Smoke_Automation');
+function tableData_Doku_Wiki_Smoke_Automation() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(20);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
-data.setCell(0, 2, 'com.app.runner.cukesRunner')
-data.setCell(0, 3, 17809);
+data.setCell(0, 2, 'com.app.runner.RegressionTestRunner')
+data.setCell(0, 3, 24808);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
-data.setCell(1, 2, 'com.app.runner.cukesRunner')
-data.setCell(1, 3, 17052);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(1, 2, 'com.app.runner.RegressionTestRunner')
+data.setCell(1, 3, 20810);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'com.app.runner.RegressionTestRunner')
+data.setCell(2, 3, 19687);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.app.runner.RegressionTestRunner')
+data.setCell(3, 3, 11227);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'com.app.runner.RegressionTestRunner')
+data.setCell(4, 3, 9589);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'com.app.runner.RegressionTestRunner')
+data.setCell(5, 3, 7987);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'com.app.runner.RegressionTestRunner')
+data.setCell(6, 3, 7845);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'com.app.runner.RegressionTestRunner')
+data.setCell(7, 3, 7820);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'com.app.runner.RegressionTestRunner')
+data.setCell(8, 3, 7696);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'com.app.runner.RegressionTestRunner')
+data.setCell(9, 3, 7275);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'com.app.runner.RegressionTestRunner')
+data.setCell(10, 3, 7205);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'com.app.runner.RegressionTestRunner')
+data.setCell(11, 3, 7074);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'com.app.runner.RegressionTestRunner')
+data.setCell(12, 3, 6637);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'com.app.runner.RegressionTestRunner')
+data.setCell(13, 3, 5064);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'com.app.runner.RegressionTestRunner')
+data.setCell(14, 3, 4721);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'com.app.runner.RegressionTestRunner')
+data.setCell(15, 3, 4650);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'com.app.runner.RegressionTestRunner')
+data.setCell(16, 3, 4416);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'com.app.runner.RegressionTestRunner')
+data.setCell(17, 3, 4151);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'com.app.runner.RegressionTestRunner')
+data.setCell(18, 3, 4114);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'com.app.runner.RegressionTestRunner')
+data.setCell(19, 3, 4061);
+window.suiteTableData['Doku_Wiki_Smoke_Automation']= { tableData: data, tableDiv: 'times-div-Doku_Wiki_Smoke_Automation'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Doku_Wiki_Smoke_Automation">
+              </div> <!-- times-div-Doku_Wiki_Smoke_Automation -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Doku_Wiki_Smoke_Automation" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Doku Wiki Smoke Automation</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
@@ -239,8 +609,134 @@ return data;
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
                 <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div></span>
-                <span class="reporter-method-output"><div "result">user uploads text file (PASSED : 10s)</div></span>
+                <span class="reporter-method-output"><div "result">user uploads text file (PASSED : 14s)</div></span>
                 <span class="reporter-method-output"><div "result">user must be able to see that text file in media files (PASSED : 2s)</div></span>
+                <span class="reporter-method-output"><div "result">User log out (PASSED : 0s)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("", "Text type")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User writes &quot;[[batch 8]]&quot; italic text format inside Cybertek school link (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User verify if link is italic (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">delete italic link (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User log out (PASSED : 0s)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("new user", "Creating new user")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User creates new user with credentials &quot;aslan&quot; &quot;abc123&quot; &quot;abc123&quot; &quot;Aslan&quot; &quot;aslan@gmail.com&quot; &quot;Hackers&quot; (PASSED : 2s)</div></span>
+                <span class="reporter-method-output"><div "result">User validates that &quot;aslan&quot; is displayed on table (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">User log out (PASSED : 0s)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Creating Hackers file", "Old revision feature")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User creates &quot;[[Hackers]]&quot; file (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User edits &quot;[[Hackers]]&quot; file to &quot;[[Hackers Cybertek]]&quot; file and saves it (PASSED : 4s)</div></span>
+                <span class="reporter-method-output"><div "result">User validates the change by clicking start link (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">User logs out (PASSED : 0s)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Old revision actions", "Old revision feature")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User navigates to tool bar and clicks Old Revision tool (PASSED : 4s)</div></span>
+                <span class="reporter-method-output"><div "result">User verifies &quot;Old Revisions&quot; text isDisplayed (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">User cliks on sunglass image which is on the second line with a text created (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">User verifies created &quot;[[Hackers]]&quot; changed to &quot;[[Hackers Cybertek]]&quot; with valid dates (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">User deletes the file (PASSED : 10s)</div></span>
+                <span class="reporter-method-output"><div "result">User logs out (PASSED : 0s)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("making changes as new user", "Creating new user")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User log in as User username &quot;mira&quot; password &quot;abc123&quot; (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User writes &quot;[[batch 7]]&quot; inside &quot;[[cybertek]]&quot; link (PASSED : 2s)</div></span>
+                <span class="reporter-method-output"><div "result">User verify in Old revisions that change made by &quot;mira&quot; (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">User log out (PASSED : 0s)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Recent changes on Media", "Tracking recent changes")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">user goes to Recent changes menu (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">user choose Media option from dropdown (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">user verifies all files have extention (PASSED : 0s)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("", "Text type")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User writes &quot;[[batch 7]]&quot; bold text format inside Cybertek school link (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User verify if link is bold (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">delete bold link (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">User log out (PASSED : 0s)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Recent changes on Pages", "Tracking recent changes")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">user goes to Recent changes menu (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">user choose Pages option from dropdown (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">user verifies sorted list has glasses button before each file (PASSED : 0s)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("new user", "Creating new user")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User creates new user with credentials &quot;mira&quot; &quot;abc123&quot; &quot;abc123&quot; &quot;Mira&quot; &quot;mira@gmail.com&quot; &quot;Hackers&quot; (PASSED : 2s)</div></span>
+                <span class="reporter-method-output"><div "result">User validates that &quot;mira&quot; is displayed on table (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">User log out (PASSED : 0s)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Cybertek links", "SiteMap functionality")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User open syntax page (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">Verify each content is described (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">User log out (PASSED : 0s)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("new user", "Creating new user")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User creates new user with credentials &quot;altyn&quot; &quot;abc123&quot; &quot;abc123&quot; &quot;Altyn&quot; &quot;altyn@gmail.com&quot; &quot;Hackers&quot; (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User validates that &quot;altyn&quot; is displayed on table (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">User log out (PASSED : 0s)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("new user", "Creating new user")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User creates new user with credentials &quot;arslan&quot; &quot;abc123&quot; &quot;abc123&quot; &quot;Arslan&quot; &quot;arslan@gmail.com&quot; &quot;Hackers&quot; (PASSED : 2s)</div></span>
+                <span class="reporter-method-output"><div "result">User validates that &quot;arslan&quot; is displayed on table (PASSED : 0s)</div></span>
                 <span class="reporter-method-output"><div "result">User log out (PASSED : 0s)</div></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -254,37 +750,185 @@ return data;
                 <span class="reporter-method-output"><div "result">User log out (PASSED : 0s)</div></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("SiteMap available pages", "SiteMap functionality")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">Verify that all pages are present in SiteMap section (PASSED : 3s)</div></span>
+                <span class="reporter-method-output"><div "result">User log out (PASSED : 0s)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Updating password", "Update profile")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">user update password to &quot;abc12345&quot; (UNDEFINED)</div></span>
+                <span class="reporter-method-output"><div "result">User log out (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc12345&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">User log out (SKIPPED)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Search for pages with invalid credentials", "Search functionality")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">user search for &quot;NoPage&quot; (UNDEFINED)</div></span>
+                <span class="reporter-method-output"><div "result">user verifies &quot;Nothing was found&quot; message (UNDEFINED)</div></span>
+                <span class="reporter-method-output"><div "result">User log out (SKIPPED)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Search for pages with valid credentials", "Search functionality")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">user search for &quot;Cybertek&quot; (UNDEFINED)</div></span>
+                <span class="reporter-method-output"><div "result">user verifies all &quot;Cybertek&quot; related pages are displayed (UNDEFINED)</div></span>
+                <span class="reporter-method-output"><div "result">User log out (SKIPPED)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("See changed actions", "Creating new file")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User navigates to tool bar and clicks Old Revision tool (PASSED : 4s)</div></span>
+                <span class="reporter-method-output"><div "result">User verifies &quot;Old Revisions&quot; text isDisplayed (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">User cliks on sunglass image which is on the second line with a text created (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">User verifies created &quot;[[Hackers]]&quot; changed to &quot;[[Hackers Cybertek]]&quot; with valid dates (FAILED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">User deletes &quot;[[Hackers Cybertek]]&quot; (UNDEFINED)</div></span>
+                <span class="reporter-method-output"><div "result">User logs out (SKIPPED)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Create Hackers file", "Creating new file")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User creates new file (UNDEFINED)</div></span>
+                <span class="reporter-method-output"><div "result">User posts &quot;[[Hackers]]&quot; (UNDEFINED)</div></span>
+                <span class="reporter-method-output"><div "result">User clicks on start link (UNDEFINED)</div></span>
+                <span class="reporter-method-output"><div "result">User validates the post (UNDEFINED)</div></span>
+                <span class="reporter-method-output"><div "result">User edits &quot;[[Hackers]]&quot; file to &quot;[[Hackers Cybertek]]&quot; file and saves it (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">User validates the change by clicking start link (SKIPPED)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Doku_Wiki_Smoke_Automation" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Doku_Wiki_Smoke_Automation" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.app.runner.cukesRunner</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.app.runner.RegressionTestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <span class="method-name">runScenario("new user", "Creating new user")</span>
+                <span class="method-start">324 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("new user", "Creating new user")</span>
+                <span class="method-start">8172 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("new user", "Creating new user")</span>
+                <span class="method-start">15248 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("new user", "Creating new user")</span>
+                <span class="method-start">22524 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("making changes as new user", "Creating new user")</span>
+                <span class="method-start">29162 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Create Hackers file", "Creating new file")</span>
+                <span class="method-start">36983 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("See changed actions", "Creating new file")</span>
+                <span class="method-start">41136 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">runScenario("Create media file", "create and delete Media file")</span>
-                <span class="method-start">225 ms</span>
+                <span class="method-start">50729 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("delete media file", "create and delete Media file")</span>
-                <span class="method-start">17279 ms</span>
+                <span class="method-start">71540 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Creating Hackers file", "Old revision feature")</span>
+                <span class="method-start">96349 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Old revision actions", "Old revision feature")</span>
+                <span class="method-start">107578 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Recent changes on Pages", "Tracking recent changes")</span>
+                <span class="method-start">127266 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Recent changes on Media", "Tracking recent changes")</span>
+                <span class="method-start">131988 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Search for pages with valid credentials", "Search functionality")</span>
+                <span class="method-start">137053 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Search for pages with invalid credentials", "Search functionality")</span>
+                <span class="method-start">141116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("SiteMap available pages", "SiteMap functionality")</span>
+                <span class="method-start">145533 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Cybertek links", "SiteMap functionality")</span>
+                <span class="method-start">153521 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("", "Text type")</span>
+                <span class="method-start">158172 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("", "Text type")</span>
+                <span class="method-start">165378 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Updating password", "Update profile")</span>
+                <span class="method-start">173075 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">35089 ms</span>
+                <span class="method-start">177191 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

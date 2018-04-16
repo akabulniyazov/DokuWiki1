@@ -1,4 +1,4 @@
-@createPage
+@createPage @reg
 Feature: Creating new file
 Background: 
 	Given User navigates DokuWiki

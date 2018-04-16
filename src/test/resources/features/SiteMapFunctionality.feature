@@ -1,4 +1,4 @@
-@siteMap
+@siteMap @reg
 Feature: SiteMap functionality
 
 Background: 
