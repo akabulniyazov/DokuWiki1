@@ -12,6 +12,7 @@ import com.app.utilities.browser;
 
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
+
 import cucumber.api.java.Before;
 
 public class Hooks {
@@ -21,6 +22,7 @@ public class Hooks {
 		WebDriver driver = browser.getDriver();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.manage().window().fullscreen();
+		//kdjl
 	}
 
 	@After
@@ -35,5 +37,6 @@ public class Hooks {
 	}
 
 }
+
 
 

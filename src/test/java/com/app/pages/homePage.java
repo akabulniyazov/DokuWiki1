@@ -1,5 +1,7 @@
 package com.app.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,6 +17,12 @@ public class homePage {
 		this.driver=browser.getDriver();
 		PageFactory.initElements(driver, this);
 	}
+	@FindBy(id="qsearch__in")
+	public WebElement searchBox;
+	
+	@FindBy(xpath="//*[@id=\"dokuwiki__content\"]/div/div[2]/div[4]")
+	public WebElement nothingWasFound;
+	
 	@FindBy(linkText="Media Manager")
 	public WebElement mediaMenagerLink;
 	
@@ -35,6 +43,58 @@ public class homePage {
 	
 	@FindBy(xpath="//a[@title='Log Out']")
 	public WebElement logOut;
+	
+
+	@FindBy (xpath="//a[@class='action index']")
+	public WebElement sideMap;
+
+
+	@FindBy (xpath="//a[@class='idx_dir']")
+	public WebElement wiki;
+	
+	@FindBy (xpath="///div[@class='li'] /a[@title='wiki:syntax']")
+	public WebElement syntax;
+	
+	@FindBy (xpath="formatting_syntax")
+	public WebElement syntaxPDisplay;
+
+	@FindBy(linkText="Admin")
+	public WebElement adminButton;
+	
+	@FindBy(linkText="Sitemap")
+	public WebElement sitemap;
+	
+	@FindBy(xpath="//li[@class='level1']//a")
+	public List<WebElement> listOfLinks;
+	
+	
+	
+	@FindBy(xpath="(//span[@class='user'])[1]/bdi")
+	public WebElement verifyUserInOldRevision;
+	
+	@FindBy(xpath="//button[@accesskey='b']")
+	public WebElement bold;
+	
+	@FindBy(tagName="strong")
+	public WebElement boldLink;
+	
+	@FindBy(xpath="//button[@accesskey='i']")
+	public WebElement italic;
+	
+	@FindBy(tagName="em")
+	public WebElement italicLink;
+	
+	
+	
+	public void clickOnLink(String link, List<WebElement> listOfLinks) {
+		for(WebElement wb : listOfLinks) {
+			if(link.contains(wb.getText())) {
+				wb.click();
+				return;
+			}
+		}
+	}
+
 
 	@FindBy(xpath="//a[.='start']")
 	public WebElement start;
@@ -63,6 +123,7 @@ public class homePage {
 	@FindBy(xpath="//a[@title='Recent Changes [R]']")
 	public WebElement recentChanges;
 
+
 	@FindBy(xpath="//a[@class='action profile']")
 	public WebElement updateProfile;
 
@@ -85,4 +146,12 @@ public class homePage {
 	public WebElement logIn;
 	
 	
+
+	
+	
+
+	@FindBy(xpath="//div[@class='page group']")
+	public WebElement bodyText;
+
+
 }
