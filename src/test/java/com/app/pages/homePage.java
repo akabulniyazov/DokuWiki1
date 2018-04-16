@@ -12,11 +12,13 @@ import com.app.utilities.browser;
 public class homePage {
 	
 	WebDriver driver;
-	
+	//============
 	public homePage() {
 		this.driver=browser.getDriver();
 		PageFactory.initElements(driver, this);
 	}
+	@FindBy(linkText="Media Manager")
+	public WebElement mediaMenagerLink;
 	
 	@FindBy(xpath="//a[@title='Create this page [E]']")
 	public WebElement CreateThisPage;
@@ -74,4 +76,35 @@ public class homePage {
 		}
 	}
 
+	@FindBy(xpath="//a[.='start']")
+	public WebElement start;
+	
+	@FindBy(xpath="//a[.='Hackers Cybertek']")
+	public WebElement hackCyb;
+	
+	@FindBy(xpath="//a[@class='action revs']")
+	public WebElement oldRevision;
+	
+	@FindBy(xpath="(//ul/li/div[@class='li']/a[@class='diff_link'])[1]")
+	public WebElement sunGlass;
+	
+	@FindBy(id="old_revisions")
+	public WebElement oldrevisionText;
+	
+	@FindBy(xpath="//table[@class='diff diff_sidebyside']//td[@class='diff-addedline']")
+	public WebElement changedText;
+	
+	@FindBy(xpath="//a[@class='action edit']")
+	public WebElement actionEdit;
+	
+	@FindBy(xpath="//a[@class='action show']")
+	public WebElement showPage;
+
+	@FindBy(xpath="//a[@title='Recent Changes [R]']")
+	public WebElement recentChanges;
+
+	
+
+	@FindBy(xpath="//div[@class='page group']")
+	public WebElement bodyText;
 }

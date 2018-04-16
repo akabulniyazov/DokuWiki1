@@ -3,8 +3,10 @@ Feature: Creating new user
 Scenario Outline: new user
 Given User navigates DokuWiki
 When User log in as Admin username "admin" password "abc123"
+
 And User creates new user with credentials "<username>" "<password>" "<password2>" "<realName>" "<Email>" "<Groups>"
 Then User validates that "<username>" is displayed on table
+
 And User log out
 Examples:
 |username|password|password2|realName |Email           |Groups |
