@@ -1,5 +1,7 @@
 package com.app.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,7 +12,7 @@ import com.app.utilities.browser;
 public class homePage {
 	
 	WebDriver driver;
-	
+	//============
 	public homePage() {
 		this.driver=browser.getDriver();
 		PageFactory.initElements(driver, this);
@@ -36,6 +38,7 @@ public class homePage {
 	@FindBy(xpath="//a[@title='Log Out']")
 	public WebElement logOut;
 	
+
 	@FindBy (xpath="//a[@class='action index']")
 	public WebElement sideMap;
 
@@ -48,6 +51,45 @@ public class homePage {
 	
 	@FindBy (xpath="formatting_syntax")
 	public WebElement syntaxPDisplay;
+
+	@FindBy(linkText="Admin")
+	public WebElement adminButton;
+	
+	@FindBy(linkText="Sitemap")
+	public WebElement sitemap;
+	
+	@FindBy(xpath="//li[@class='level1']//a")
+	public List<WebElement> listOfLinks;
+	
+	@FindBy(xpath="//a[@title='Old revisions [O]']")
+	public WebElement oldRevision;
+	
+	@FindBy(xpath="(//span[@class='user'])[1]/bdi")
+	public WebElement verifyUserInOldRevision;
+	
+	@FindBy(xpath="//button[@accesskey='b']")
+	public WebElement bold;
+	
+	@FindBy(tagName="strong")
+	public WebElement boldLink;
+	
+	@FindBy(xpath="//button[@accesskey='i']")
+	public WebElement italic;
+	
+	@FindBy(tagName="em")
+	public WebElement italicLink;
+	
+	
+	
+	public void clickOnLink(String link, List<WebElement> listOfLinks) {
+		for(WebElement wb : listOfLinks) {
+			if(link.contains(wb.getText())) {
+				wb.click();
+				return;
+			}
+		}
+	}
+
 
 	@FindBy(xpath="//a[.='start']")
 	public WebElement start;
