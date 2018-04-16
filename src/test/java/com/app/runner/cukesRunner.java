@@ -8,9 +8,9 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
     	features="./src/test/resources/features",
     	glue="com.app.stepDefs",
 
-    	tags= {"@media"},
+    	tags= {"@profile"},
 	dryRun=false
-//--------
+
 )
 public class cukesRunner extends AbstractTestNGCucumberTests {
 

@@ -24,7 +24,9 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
+
       <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +39,10 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
+
             <a href="#" class="navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation">
               <span class="suite-name border-failed">Doku Wiki Smoke Automation</span>
+
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,6 +95,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
+
                     <span class="method-stats">20 methods, 5 failed,   15 passed</span>
                   </li>
                   <li>
@@ -134,7 +139,15 @@
                       <a href="#" panel-name="suite-Doku_Wiki_Smoke_Automation" class="show-methods passed suite-Doku_Wiki_Smoke_Automation"> (show)</a> <!-- show-methods passed suite-Doku_Wiki_Smoke_Automation -->
                     </span>
                     <div class="method-list-content passed suite-Doku_Wiki_Smoke_Automation">
+
                       <span>
+
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.app.runner.cukesRunner" hash-for-method="runScenario(&quot;Updating password&quot;, &quot;Update profile&quot;)">runScenario("Updating password", "Update profile")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;Create media file&quot;, &quot;create and delete Media file&quot;)">runScenario("Create media file", "create and delete Media file")</a> <!-- method navigator-link -->
                       </span>
@@ -144,6 +157,7 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;&quot;, &quot;Text type&quot;)">runScenario("", "Text type")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Doku_Wiki_Smoke_Automation" title="com.app.runner.RegressionTestRunner" hash-for-method="runScenario(&quot;new user&quot;, &quot;Creating new user&quot;)">runScenario("new user", "Creating new user")</a> <!-- method navigator-link -->
@@ -210,6 +224,7 @@
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Doku_Wiki_Smoke_Automation -->
+
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -220,6 +235,7 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
+
         <div panel-name="suite-Doku_Wiki_Smoke_Automation" class="panel Doku_Wiki_Smoke_Automation">
           <div class="suite-Doku_Wiki_Smoke_Automation-class-failed">
             <div class="main-panel-header rounded-window-top">
@@ -294,10 +310,51 @@
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.app.runner.RegressionTestRunner</span>
+
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+
+                  <a name="runScenario(&quot;Updating password&quot;, &quot;Update profile&quot;)">
+                  </a> <!-- runScenario("Updating password", "Update profile") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Updating password", "Update profile")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@title=&apos;Log Out&apos;]&quot;}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543654 (a46b62e9900f5ac48951f8ad68d9e03eded4cc8d),platform=Mac OS X 10.10.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;Asels-MacBook-Pro.local&apos;, ip: &apos;2601:246:4e01:af1d:d962:8f52:5b41:20b4&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543654 (a46b62e9900f5a..., userDataDir: /var/folders/2_/03_2b2qx74x...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 0aa6946b87bf9e53165c682b5cdeb63d
+*** Element info: {Using=xpath, value=//a[@title=&apos;Log Out&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at com.app.stepDefs.smokeTestStepDefs.user_log_out(smokeTestStepDefs.java:58)
+	at ✽.User log out(./src/test/resources/features/UpdateProfile.feature:12)
+
+</div> <!-- stack-trace -->
+
                   <a name="runScenario(&quot;Create media file&quot;, &quot;create and delete Media file&quot;)">
                   </a> <!-- runScenario("Create media file", "create and delete Media file") -->
                   <span class="method-name">runScenario</span>
@@ -432,6 +489,7 @@
                   </a> <!-- runScenario("delete media file", "create and delete Media file") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("delete media file", "create and delete Media file")</span>
+
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -447,11 +505,13 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
+
           </div> <!-- suite-Doku_Wiki_Smoke_Automation-class-passed -->
         </div> <!-- panel Doku_Wiki_Smoke_Automation -->
         <div panel-name="test-xml-Doku_Wiki_Smoke_Automation" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">/Users/iskanderuraiymov/git/DokuWiki1/doku_regression_test_runner.xml</span>
+
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -508,6 +568,7 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
+
 data.addRows(20);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
@@ -596,6 +657,7 @@ return data;
               <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Doku_Wiki_Smoke_Automation">
               </div> <!-- times-div-Doku_Wiki_Smoke_Automation -->
+
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -605,6 +667,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
+
+              <span class="reporter-method-name">runScenario("Updating password", "Update profile")</span>
+
               <span class="reporter-method-name">runScenario("Create media file", "create and delete Media file")</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
@@ -742,12 +807,20 @@ return data;
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">runScenario("delete media file", "create and delete Media file")</span>
+
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User navigates DokuWiki (PASSED : 3s)</div></span>
                 <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div></span>
+
+                <span class="reporter-method-output"><div "result">user update password to &quot;abc12345&quot; (PASSED : 19s)</div></span>
+                <span class="reporter-method-output"><div "result">User log out (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">User log in as Admin username &quot;admin&quot; password &quot;abc12345&quot; (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">User log out (FAILED : 5s)</div></span>
+
                 <span class="reporter-method-output"><div "result">user should be able to delete that file (PASSED : 5s)</div></span>
                 <span class="reporter-method-output"><div "result">that file must be deleted from media files (PASSED : 8s)</div></span>
                 <span class="reporter-method-output"><div "result">User log out (PASSED : 0s)</div></span>
+
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -837,6 +910,7 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+
                 <span class="method-name">runScenario("new user", "Creating new user")</span>
                 <span class="method-start">324 ms</span>
               </div> <!-- test-method -->
@@ -869,6 +943,7 @@ return data;
                 <span class="method-start">41136 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+
                 <span class="method-name">runScenario("Create media file", "create and delete Media file")</span>
                 <span class="method-start">50729 ms</span>
               </div> <!-- test-method -->
@@ -928,7 +1003,9 @@ return data;
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
+
                 <span class="method-start">177191 ms</span>
+
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
