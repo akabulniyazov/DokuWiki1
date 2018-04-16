@@ -1,129 +1,122 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
     <line>
-
-      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
-
+      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 3s)</div>]]>
     </line>
     <line>
       <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
     </line>
     <line>
-
-      <![CDATA[<div "result">user uploads text file (PASSED : 12s)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user must be able to see that text file in media files (PASSED : 2s)</div>]]>
+      <![CDATA[<div "result">user update password to &quot;abc12345&quot; (PASSED : 19s)</div>]]>
     </line>
     <line>
       <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc12345&quot; (PASSED : 1s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 7s)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">user should be able to delete that file (PASSED : 5s)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">that file must be deleted from media files (PASSED : 8s)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">User log out (PASSED : 1s)</div>]]>
+      <![CDATA[<div "result">User log out (FAILED : 5s)</div>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46193" started-at="2018-04-05T22:58:51Z" finished-at="2018-04-05T22:59:37Z">
-
+  <suite name="Default suite" duration-ms="36156" started-at="2018-04-16T23:00:39Z" finished-at="2018-04-16T23:01:15Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@3f49dace]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@dc24521]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-
-    <test name="Default test" duration-ms="46193" started-at="2018-04-05T22:58:51Z" finished-at="2018-04-05T22:59:37Z">
+    <test name="Default test" duration-ms="36156" started-at="2018-04-16T23:00:39Z" finished-at="2018-04-16T23:01:15Z">
       <class name="com.app.runner.cukesRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runner.cukesRunner@3f49dace]" name="setUpClass" is-config="true" duration-ms="153" started-at="2018-04-05T22:58:51Z" finished-at="2018-04-05T22:58:51Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runner.cukesRunner@dc24521]" name="setUpClass" is-config="true" duration-ms="283" started-at="2018-04-16T23:00:39Z" finished-at="2018-04-16T23:00:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@3f49dace]" name="runScenario" duration-ms="21322" started-at="2018-04-05T22:58:51Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-05T22:59:13Z">
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@dc24521]" name="runScenario" duration-ms="35733" started-at="2018-04-16T23:00:39Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:01:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Create media file"]]>
-
+                <![CDATA["Updating password"]]>
               </value>
             </param>
             <param index="1">
               <value>
-
-                <![CDATA["create and delete Media file"]]>
-
+                <![CDATA["Update profile"]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='Log Out']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543654 (a46b62e9900f5ac48951f8ad68d9e03eded4cc8d),platform=Mac OS X 10.10.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Asels-MacBook-Pro.local', ip: '2601:246:4e01:af1d:d962:8f52:5b41:20b4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543654 (a46b62e9900f5a..., userDataDir: /var/folders/2_/03_2b2qx74x...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 0aa6946b87bf9e53165c682b5cdeb63d
+*** Element info: {Using=xpath, value=//a[@title='Log Out']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='Log Out']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543654 (a46b62e9900f5ac48951f8ad68d9e03eded4cc8d),platform=Mac OS X 10.10.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Asels-MacBook-Pro.local', ip: '2601:246:4e01:af1d:d962:8f52:5b41:20b4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543654 (a46b62e9900f5a..., userDataDir: /var/folders/2_/03_2b2qx74x...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 0aa6946b87bf9e53165c682b5cdeb63d
+*** Element info: {Using=xpath, value=//a[@title='Log Out']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy18.click(Unknown Source)
+at com.app.stepDefs.smokeTestStepDefs.user_log_out(smokeTestStepDefs.java:58)
+at ✽.User log out(./src/test/resources/features/UpdateProfile.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
-
-              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
-
+              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 3s)</div>]]>
             </line>
             <line>
               <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
             </line>
             <line>
-
-              <![CDATA[<div "result">user uploads text file (PASSED : 12s)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user must be able to see that text file in media files (PASSED : 2s)</div>]]>
+              <![CDATA[<div "result">user update password to &quot;abc12345&quot; (PASSED : 19s)</div>]]>
             </line>
             <line>
               <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
             </line>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@3f49dace]" name="runScenario" duration-ms="24653" started-at="2018-04-05T22:59:13Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-05T22:59:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["delete media file"]]>
-
-              </value>
-            </param>
-            <param index="1">
-              <value>
-
-                <![CDATA["create and delete Media file"]]>
-
-              </value>
-            </param>
-          </params>
-          <reporter-output>
             <line>
-
-              <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
+              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc12345&quot; (PASSED : 1s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 7s)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">user should be able to delete that file (PASSED : 5s)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">that file must be deleted from media files (PASSED : 8s)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">User log out (PASSED : 1s)</div>]]>
+              <![CDATA[<div "result">User log out (FAILED : 5s)</div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runner.cukesRunner@3f49dace]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2018-04-05T22:59:37Z" finished-at="2018-04-05T22:59:37Z">
-
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runner.cukesRunner@dc24521]" name="tearDownClass" is-config="true" duration-ms="19" started-at="2018-04-16T23:01:15Z" finished-at="2018-04-16T23:01:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
@@ -131,4 +124,3 @@
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
-
