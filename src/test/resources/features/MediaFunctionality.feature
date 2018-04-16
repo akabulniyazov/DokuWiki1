@@ -4,7 +4,7 @@ Feature: create and delete Media file
   Background: 
     Given User navigates DokuWiki
     When User log in as Admin username "admin" password "abc123"
-
+@media 
   Scenario: Create media file
     Then user uploads text file
     Then user must be able to see that text file in media files
