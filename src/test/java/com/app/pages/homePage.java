@@ -38,6 +38,20 @@ public class homePage {
 	@FindBy(xpath="//a[@title='Log Out']")
 	public WebElement logOut;
 	
+
+	@FindBy (xpath="//a[@class='action index']")
+	public WebElement sideMap;
+
+
+	@FindBy (xpath="//a[@class='idx_dir']")
+	public WebElement wiki;
+	
+	@FindBy (xpath="///div[@class='li'] /a[@title='wiki:syntax']")
+	public WebElement syntax;
+	
+	@FindBy (xpath="formatting_syntax")
+	public WebElement syntaxPDisplay;
+
 	@FindBy(linkText="Admin")
 	public WebElement adminButton;
 	
@@ -76,6 +90,7 @@ public class homePage {
 		}
 	}
 
+
 	@FindBy(xpath="//a[.='start']")
 	public WebElement start;
 	
@@ -107,4 +122,5 @@ public class homePage {
 
 	@FindBy(xpath="//div[@class='page group']")
 	public WebElement bodyText;
+
 }
