@@ -5,6 +5,7 @@ import org.testng.Assert;
 
 import com.app.pages.homePage;
 import com.app.pages.loginPage;
+import com.app.utilities.BrowserUtils;
 import com.app.utilities.browser;
 import com.app.utilities.configuration;
 
@@ -25,6 +26,7 @@ public class smokeTestStepDefs {
 	@When("^User log in as Admin username \"([^\"]*)\" password \"([^\"]*)\"$")
 	public void user_log_in_as_Admin_username_password(String arg1, String arg2) {
 	    loginPage loginpage=new loginPage();
+	    BrowserUtils.waitForPageToLoad(3);
 	    loginpage.loginButton.click();
 	    loginpage.login(configuration.getPropertyValue("username"), configuration.getPropertyValue("password"));
 	    

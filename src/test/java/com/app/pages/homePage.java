@@ -17,6 +17,12 @@ public class homePage {
 		this.driver=browser.getDriver();
 		PageFactory.initElements(driver, this);
 	}
+	@FindBy(id="qsearch__in")
+	public WebElement searchBox;
+	
+	@FindBy(xpath="//*[@id=\"dokuwiki__content\"]/div/div[2]/div[4]")
+	public WebElement nothingWasFound;
+	
 	@FindBy(linkText="Media Manager")
 	public WebElement mediaMenagerLink;
 	
@@ -117,6 +123,7 @@ public class homePage {
 	@FindBy(xpath="//a[@title='Recent Changes [R]']")
 	public WebElement recentChanges;
 
+	
 	
 
 	@FindBy(xpath="//div[@class='page group']")

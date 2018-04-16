@@ -1,18 +1,14 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
-
       <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
-
     </line>
     <line>
       <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
     </line>
     <line>
-
-      <![CDATA[<div "result">user uploads text file (PASSED : 12s)</div>]]>
+      <![CDATA[<div "result">user uploads text file (PASSED : 10s)</div>]]>
     </line>
     <line>
       <![CDATA[<div "result">user must be able to see that text file in media files (PASSED : 2s)</div>]]>
@@ -24,7 +20,7 @@
       <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 7s)</div>]]>
+      <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
     </line>
     <line>
       <![CDATA[<div "result">user should be able to delete that file (PASSED : 5s)</div>]]>
@@ -33,51 +29,43 @@
       <![CDATA[<div "result">that file must be deleted from media files (PASSED : 8s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">User log out (PASSED : 1s)</div>]]>
+      <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46193" started-at="2018-04-05T22:58:51Z" finished-at="2018-04-05T22:59:37Z">
-
+  <suite name="Default suite" duration-ms="35103" started-at="2018-04-16T21:47:50Z" finished-at="2018-04-16T21:48:25Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@3f49dace]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@dc24521]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-
-    <test name="Default test" duration-ms="46193" started-at="2018-04-05T22:58:51Z" finished-at="2018-04-05T22:59:37Z">
+    <test name="Default test" duration-ms="35103" started-at="2018-04-16T21:47:50Z" finished-at="2018-04-16T21:48:25Z">
       <class name="com.app.runner.cukesRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runner.cukesRunner@3f49dace]" name="setUpClass" is-config="true" duration-ms="153" started-at="2018-04-05T22:58:51Z" finished-at="2018-04-05T22:58:51Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runner.cukesRunner@dc24521]" name="setUpClass" is-config="true" duration-ms="170" started-at="2018-04-16T21:47:50Z" finished-at="2018-04-16T21:47:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@3f49dace]" name="runScenario" duration-ms="21322" started-at="2018-04-05T22:58:51Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-05T22:59:13Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@dc24521]" name="runScenario" duration-ms="17052" started-at="2018-04-16T21:47:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T21:48:07Z">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Create media file"]]>
-
               </value>
             </param>
             <param index="1">
               <value>
-
                 <![CDATA["create and delete Media file"]]>
-
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-
               <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
-
             </line>
             <line>
               <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
             </line>
             <line>
-
-              <![CDATA[<div "result">user uploads text file (PASSED : 12s)</div>]]>
+              <![CDATA[<div "result">user uploads text file (PASSED : 10s)</div>]]>
             </line>
             <line>
               <![CDATA[<div "result">user must be able to see that text file in media files (PASSED : 2s)</div>]]>
@@ -87,29 +75,25 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@3f49dace]" name="runScenario" duration-ms="24653" started-at="2018-04-05T22:59:13Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-05T22:59:37Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.cukesRunner@dc24521]" name="runScenario" duration-ms="17809" started-at="2018-04-16T21:48:07Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T21:48:25Z">
           <params>
             <param index="0">
               <value>
                 <![CDATA["delete media file"]]>
-
               </value>
             </param>
             <param index="1">
               <value>
-
                 <![CDATA["create and delete Media file"]]>
-
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-
               <![CDATA[<div "result">User navigates DokuWiki (PASSED : 1s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 7s)</div>]]>
+              <![CDATA[<div "result">User log in as Admin username &quot;admin&quot; password &quot;abc123&quot; (PASSED : 1s)</div>]]>
             </line>
             <line>
               <![CDATA[<div "result">user should be able to delete that file (PASSED : 5s)</div>]]>
@@ -118,12 +102,11 @@
               <![CDATA[<div "result">that file must be deleted from media files (PASSED : 8s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">User log out (PASSED : 1s)</div>]]>
+              <![CDATA[<div "result">User log out (PASSED : 0s)</div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runner.cukesRunner@3f49dace]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2018-04-05T22:59:37Z" finished-at="2018-04-05T22:59:37Z">
-
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runner.cukesRunner@dc24521]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2018-04-16T21:48:25Z" finished-at="2018-04-16T21:48:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
@@ -131,4 +114,3 @@
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
-
