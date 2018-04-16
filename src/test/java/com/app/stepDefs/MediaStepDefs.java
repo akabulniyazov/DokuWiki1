@@ -30,8 +30,8 @@ public class MediaStepDefs {
 
 	homePage hPage = new homePage();
 	MediaManagerPage mediaPAge = new MediaManagerPage();
-	String fileName = "test1.rtf";
-	String filePath = "/Users/aslanbekdarchiev/Desktop/testFiles/test1.rtf";
+	String fileName = "Iskender copy.txt";
+	String filePath = "/Users/iskanderuraiymov/Desktop/untitled folder/Iskender copy.txt";
 
 	@Then("^user uploads text file$")
 	public void user_uploads_text_file() throws InterruptedException {
