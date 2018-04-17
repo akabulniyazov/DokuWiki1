@@ -11,5 +11,5 @@ And User log out
 
 Scenario: Search for pages with invalid credentials
 Then user search for "NoPage"
-Then user verifies "Nothing was found" message
+Then user verifies "Nothing was found." message
 And User log out
