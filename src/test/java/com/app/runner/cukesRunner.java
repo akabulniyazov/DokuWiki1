@@ -8,7 +8,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
     	features="./src/test/resources/features",
     	glue="com.app.stepDefs",
 
-    	tags= {"@profile"},
+    	tags= {"	@fff"},
 	dryRun=false
 
 )
