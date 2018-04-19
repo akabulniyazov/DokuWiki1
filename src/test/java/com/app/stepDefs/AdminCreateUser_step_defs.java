@@ -23,6 +23,7 @@ public class AdminCreateUser_step_defs {
 	    ap.email.sendKeys(email);
 	    ap.groups.sendKeys(groups);
 	    ap.addButton.click();
+	    System.out.println("New add");
 	}
 
 	@Then("^User validates that \"([^\"]*)\" is displayed on table$")
