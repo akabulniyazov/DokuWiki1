@@ -123,10 +123,35 @@ public class homePage {
 	@FindBy(xpath="//a[@title='Recent Changes [R]']")
 	public WebElement recentChanges;
 
+
+	@FindBy(xpath="//a[@class='action profile']")
+	public WebElement updateProfile;
+
+	@FindBy(xpath="//div[@class='page group']")
+	public WebElement bodyText;
+	
+	@FindBy(xpath="//input[@name='newpass']")
+	public WebElement newPass;
+	
+	@FindBy(xpath="//input[@name='passchk']")
+	public WebElement onceAgain;
+	
+	@FindBy(xpath="//input[@name='oldpass']")
+	public WebElement oldPass;
+	
+	@FindBy(xpath="//button[.='Save']")
+	public WebElement saveUpdate;
+	
+	@FindBy(xpath="//a[@title='Log In']")
+	public WebElement logIn;
+	
+	
+
 	
 	
 
 	@FindBy(xpath="//div[@class='page group']")
 	public WebElement bodyText;
+
 
 }
